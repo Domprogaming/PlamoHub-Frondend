@@ -6,8 +6,7 @@ import {
   Camera, CheckCircle, Clock, Archive, RefreshCw, CreditCard
 } from 'lucide-react';
 
-const API_URL = 'plamohub-backend-production.up.railway.app';
-
+const API_URL = 'https://plamohub-backend-production.up.railway.app/api';
 const GRADE_COLORS = {
   EG: "bg-green-500", HG: "bg-blue-500", RG: "bg-red-600",
   MG: "bg-yellow-500", PG: "bg-purple-600", None: "bg-gray-500"
